@@ -1,5 +1,3 @@
-/* eslint-disable react/prop-types */
-
 import React from 'react';
 
 /**
@@ -14,27 +12,27 @@ import React from 'react';
  * @returns {Element}
  */
 export default function createReactElement({
-  componentObj,
-  props,
-  railsContext,
-  domNodeId,
-  trace,
-  }) {
-  const { name, component, generatorFunction } = componentObj;
+    componentObj,
+    props,
+    railsContext,
+    domNodeId,
+    trace,
+}) {
+    const { name, component, generatorFunction } = componentObj;
 
-  if (trace) {
-    if (railsContext && railsContext.serverSide) {
-      console.log(`RENDERED ${name} to dom node with id: ${domNodeId} with railsContext:`,
-        railsContext);
-    } else {
-      console.log(`RENDERED ${name} to dom node with id: ${domNodeId} with props, railsContext:`,
-        props, railsContext);
+    if (trace) {
+        if (railsContext && railsContext.serverSide) {
+            console.log(`RENDERED ${name} to dom node with id: ${domNodeId} with railsContext:`,
+                railsContext);
+        } else {
+            console.log(`RENDERED ${name} to dom node with id: ${domNodeId} with props, railsContext:`,
+                props, railsContext);
+        }
     }
-  }
 
-  if (generatorFunction) {
-    return component(props, railsContext);
-  }
+    if (generatorFunction) {
+        return component(props, railsContext);
+    }
 
-  return React.createElement(component, props);
+    return React.createElement(component, props);
 }

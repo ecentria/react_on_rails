@@ -706,5 +706,3 @@ I appreciate your attention and sharing of these offerings with anybody that we 
 Aloha and best wishes from the ShakaCode team!
 
 ------
-
-ecentri fork

@@ -1,6 +1,6 @@
 export default function isResultNonReactComponent(reactElementOrRouterResult) {
-  return !!(
-    reactElementOrRouterResult.renderedHtml ||
+    return !!(
+        reactElementOrRouterResult.renderedHtml ||
     reactElementOrRouterResult.redirectLocation ||
     reactElementOrRouterResult.error);
 }
