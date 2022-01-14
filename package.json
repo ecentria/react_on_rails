@@ -2,7 +2,7 @@
   "name": "react-on-rails",
   "version": "8.0.6",
   "description": "react-on-rails JavaScript for react_on_rails Ruby gem",
-  "main": "node_package/lib/ReactOnRails.js",
+  "main": "node_package/src/ReactOnRails.js",
   "directories": {
     "doc": "docs"
   },
@@ -46,8 +46,7 @@
     "react-dom": ">= 0.14"
   },
   "files": [
-    "node_package/lib",
-    "webpackConfigLoader.js"
+    "node_package/src"
    ],
   "scripts": {
   },
