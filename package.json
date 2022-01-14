@@ -1,6 +1,6 @@
 {
   "name": "react-on-rails",
-  "version": "Ecentria fork"
+  "version": "Fork of 8.0.6",
   "description": "react-on-rails JavaScript for react_on_rails Ruby gem",
   "main": "node_package/lib/ReactOnRails.js",
   "directories": {
@@ -52,7 +52,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/ecentria/react_on_rails.git#MUZ-4926-react-on-rails-fork"
+    "url": "git+ssh://git@github.com/ecentria/react_on_rails.git"
   },
   "keywords": [
     "react",
