@@ -1,6 +1,6 @@
 {
   "name": "react-on-rails",
-  "version": "8.0.6",
+  "version": "Ecentria fork"
   "description": "react-on-rails JavaScript for react_on_rails Ruby gem",
   "main": "node_package/lib/ReactOnRails.js",
   "directories": {
@@ -46,14 +46,13 @@
     "react-dom": ">= 0.14"
   },
   "files": [
-    "node_package/lib",
-    "webpackConfigLoader.js"
-  ],
+    "node_package/lib"
+   ],
   "scripts": {
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/shakacode/react_on_rails.git"
+    "url": "git+ssh://git@github.com/ecentria/react_on_rails.git#MUZ-4926-react-on-rails-fork"
   },
   "keywords": [
     "react",
